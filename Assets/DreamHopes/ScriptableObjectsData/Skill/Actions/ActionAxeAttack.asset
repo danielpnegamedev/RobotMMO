@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb3e8520e6f7c60498ebf9c34380f1ba, type: 3}
+  m_Name: ActionAxeAttack
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: faace5dc8dde7c44bb07e9ff5cc5c788, type: 3}
+  skillName: Attack
+  description: Ataca forte com machado
+  skillPrefab: {fileID: 4019787737525184076, guid: 4a8dbc5ebb99cf4479568bb5ed26297f,
+    type: 3}
+  skillCastRate: 3
+  animationType: 2
+  castVFX: {fileID: 0}
+  castSound: {fileID: 0}
+  projectileSpawnPosition: 2
+  projectileMoveType: 0
+  projectileSpeed: 0
+  projectileCollisionVFX: {fileID: 0}
+  projectileCollisionSound: {fileID: 0}
+  target: 2
+  effects:
+  - typeEffect: 5
+    bioBaseValue: 3
+    bioScaleValue: 3
+    bioTotalValue: 0
+    natureBaseValue: 3
+    natureScaleValue: 3
+    natureTotalValue: 3
+    magikBaseValue: 3
+    magikScaleValue: 3
+    magikTotalValue: 3
+    hitCastRateSkill: 3
+    hitDurationPreHit: 5
+    hitDurationPreInfinity: 0
+    hitDurationPostHit: 5
+    hitDurationPostInfinity: 0
+    hitTotal: 5
+    hitAOELimit: 1
+    hitsMaxPerEnemy: 99
+    hitCanClearTargetsAfterHit: 0
+    endSkills:
+    - effectEndTrigger: 6
+      effectEndTriggerValue: 0
+      isEffectEnded: 0
+  isAutoAttack: 0

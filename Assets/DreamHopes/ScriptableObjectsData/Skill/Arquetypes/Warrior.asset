@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c8572a68ff4b1044a130f8611062dbd, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  skillArchetype: Axe Warrior
+  archetypeSprite: {fileID: 21300000, guid: 0c9da139af6f13341a62f772a903c3b0, type: 3}
+  skillsTierS:
+  - {fileID: 11400000, guid: 4254754da5164b3438c2ae2c7794cb4d, type: 2}
+  skillsTierA:
+  - {fileID: 11400000, guid: 8e62c283959d4654abd3d1d11765e53d, type: 2}
+  - {fileID: 11400000, guid: 2b1a300825d02c740820ef2224005d4f, type: 2}
+  - {fileID: 11400000, guid: 719b6d9a908787a449c1d6866e032c09, type: 2}
+  skillsTierB:
+  - {fileID: 11400000, guid: 364743b01c0f65441b75eeb2eaad8f61, type: 2}
+  - {fileID: 11400000, guid: e6d15b6bffa6b54458e58544ccb27f9c, type: 2}
+  - {fileID: 11400000, guid: daccf1a330956174a9a87bde6bf263e4, type: 2}
+  - {fileID: 11400000, guid: a9e3e7e6790d5be42989e4968feeb215, type: 2}
